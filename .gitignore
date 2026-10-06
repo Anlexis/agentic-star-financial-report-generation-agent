@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+.env
+*.egg
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# Locally placed reference files — never tracked in a template repository.
+# They are written into the working tree for reference and are not part of the
+# template's own source.
+CLAUDE.md
+security_rules/
+ci_stubs/
+MANIFEST.md
